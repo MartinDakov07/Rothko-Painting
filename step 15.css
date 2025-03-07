@@ -1,0 +1,12 @@
+.canvas {
+    width: 500px;
+    height: 600px;
+    background-color: #4d0f00;
+  }
+  
+  .frame {
+    border: 50px solid black;
+    width: 500px;
+    padding: 50px;
+    margin:20px auto;/*Margin is a space outside the border of an element. Padding is a space inside the border of an element. This will center the frame*/
+  }
