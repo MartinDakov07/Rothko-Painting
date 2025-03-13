@@ -1,0 +1,21 @@
+.canvas {
+    width: 500px;
+    height: 600px;
+    background-color: #4d0f00;
+    padding:1px;/*Now .one is centered horizontally, but its top margin is pushing past the canvas and onto the frame's border, shifting the entire canvas down 20 pixels.*/
+    /*Adding padding to the canvas element to give the .one element something solid to push off of.*/
+  }
+  
+  .frame {
+    border: 50px solid black;
+    width: 500px;
+    padding: 50px;
+    margin: 20px auto;
+  }
+  
+  .one {
+    width: 425px;
+    height: 150px;
+    background-color: #efb762;
+    margin: 20px auto;
+  }
